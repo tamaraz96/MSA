@@ -11,12 +11,12 @@ MSA (Mikroservisne aplikacije) je projekat koji je razvijen sa ciljem demonstrir
 
 ## Plan projekta
 
-1. Praćenje košarkaških utakmica
-   1.1 Play-by-play servis - "servira" gotove podatke o utakmicama, kao da je u pitanju realan feed
-   1.2 Game servis - periodično poziva play-by-play servis, snima podatke u pazu i šalje na message queue, simulirajući real-time feed
-   1.3 Statistics servis - prima poruke sa message queue-a i računa statistike u realnom vremenu
-2. Docker - "kontejnerizacija" svih servisa
-3. Jenkins - automatizacija build i deploy procesa
+1. Praćenje košarkaških utakmica <br />
+   1.1 Play-by-play servis - "servira" gotove podatke o utakmicama, kao da je u pitanju realan feed <br />
+   1.2 Game servis - periodično poziva play-by-play servis, snima podatke u pazu i šalje na message queue, simulirajući real-time feed <br />
+   1.3 Statistics servis - prima poruke sa message queue-a i računa statistike u realnom vremenu <br />
+2. Docker - "kontejnerizacija" svih servisa <br />
+3. Jenkins - automatizacija build i deploy procesa <br />
 4. ELK - agregacija logova svih servisa
 
 
